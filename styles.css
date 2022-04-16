@@ -1,0 +1,17 @@
+.class1 > ul,
+p {
+  color: green;
+  background-color: red;
+  font-size: x-large;
+}
+.div1 {
+  position: relative;
+}
+.play {
+  width: 50%;
+}
+.chrd {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}

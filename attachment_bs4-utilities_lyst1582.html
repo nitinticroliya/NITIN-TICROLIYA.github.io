@@ -1,0 +1,174 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>BS4 Utilities</title>
+    <style>
+      .border {
+        height: 80px;
+        width: 80px;
+        display: inline-block;
+        border-width: 4px !important;
+        margin: 5px;
+      }
+
+      span {
+        height: 80px;
+        width: 80px;
+        display: inline-block;
+        margin: 5px;
+        background-color: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Colors -->
+    <h2>Colors</h2>
+    <p class="text-primary">.text-primary</p>
+    <p class="text-secondary">.text-secondary</p>
+    <p class="text-success">.text-success</p>
+    <p class="text-danger">.text-danger</p>
+    <p class="text-warning">.text-warning</p>
+    <p class="text-info">.text-info</p>
+    <p class="text-light bg-dark">.text-light</p>
+    <p class="text-dark">.text-dark</p>
+    <p class="text-muted">.text-muted</p>
+    <p class="text-white bg-dark">.text-white</p>
+
+    <!-- Background colors -->
+    <h2 class="mt-5">Background colors</h2>
+    <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+    <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+    <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+    <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+    <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+    <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+    <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+    <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+    <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+
+    <!-- Margin, Padding -->
+    <h2 class="mt-5">Margin and Padding</h2>
+
+    <!-- Direction wise margin - ml, mr, mt, mb -->
+    <div class="ml-5 bg-warning">ml-5</div>
+
+    <br />
+    <!-- Axis wise margin - mx, my-->
+    <div class="mx-5 bg-warning">mx-5</div>
+    <div class="my-5 bg-warning">my-5</div>
+
+    <!-- Margin all directions -->
+    <div class="m-5 bg-warning">m-5</div>
+
+    <!-- Direction wise padding - pl, pr, pt, pb -->
+    <div class="pl-5 bg-warning">pl-5</div>
+
+    <br />
+
+    <!-- Axis wise padding - px, py  -->
+    <div class="px-5 bg-warning">px-5</div>
+    <br />
+    <div class="py-5 bg-warning">py-5</div>
+
+    <br />
+    <!-- Padding all directions -->
+    <div class="p-5 bg-warning">p-5</div>
+
+    <br />
+    <!-- sm, md, lg, xl -->
+    <div class="m-sm-3 m-md-5 bg-warning">m-5</div>
+
+    <!-- Border -->
+    <h2 class="mt-5">Border</h2>
+
+    <div class="border"></div>
+    <div class="border border-0"></div>
+    <div class="border border-top-0"></div>
+    <div class="border border-right-0"></div>
+    <div class="border border-bottom-0"></div>
+    <div class="border border-left-0"></div>
+
+    <!-- Border Color  -->
+    <h2 class="mt-5">Border color</h2>
+
+    <div class="border border-primary"></div>
+    <div class="border border-secondary"></div>
+    <div class="border border-success"></div>
+    <div class="border border-danger"></div>
+    <div class="border border-warning"></div>
+    <div class="border border-info"></div>
+    <div class="border border-light"></div>
+    <div class="border border-dark"></div>
+    <div class="border border-white bg-dark"></div>
+
+    <!-- Border Radius -->
+    <h2 class="mt-5">Border Radius</h2>
+
+    <span class="rounded-sm"></span>
+    <span class="rounded"></span>
+    <span class="rounded-lg"></span>
+    <span class="rounded-top"></span>
+    <span class="rounded-right"></span>
+    <span class="rounded-bottom"></span>
+    <span class="rounded-left"></span>
+    <span class="rounded-circle"></span>
+    <span class="rounded-0"></span>
+
+    <!-- Width -->
+    <h2 class="mt-5">Width</h2>
+
+    <div class="w-25 bg-warning">Width 25%</div>
+    <div class="w-50 bg-warning">Width 50%</div>
+    <div class="w-75 bg-warning">Width 75%</div>
+    <div class="w-100 bg-warning">Width 100%</div>
+    <div class="mw-100 bg-warning">Max Width 100%</div>
+
+    <!-- Buttons -->
+    <h2 class="mt-5">Buttons</h2>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-link">Link</button>
+
+    <!-- Typography -->
+    <div class="m-5">
+      <h2>Typography</h2>
+      <p class="text-capitalize">text-capitalize</p>
+      <p class="text-lowercase">text-lowercase</p>
+      <p class="text-uppercase">text-uppercase</p>
+      <p class="font-weight-bold">.font-weight-bold</p>
+      <p class="font-weight-bolder">.font-weight-bolder</p>
+      <p class="font-weight-normal">.font-weight-normal</p>
+      <p class="font-weight-light">.font-weight-light</p>
+      <p class="font-weight-lighter">.font-weight-lighter</p>
+      <p class="font-italic">.font-italic</p>
+    </div>
+
+    <!-- Display headings -->
+    <div class="m-5">
+      <h2>Headings</h2>
+      <h1 class="display-1">Display 1</h1>
+      <h1 class="display-2">Display 2</h1>
+      <h1 class="display-3">Display 3</h1>
+      <h1 class="display-4">Display 4</h1>
+    </div>
+  </body>
+</html>
